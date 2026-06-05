@@ -25,10 +25,10 @@ python calculadora.py
 ```
 Inicio
   │
-  ▼
+  V
 mostrar_menu()
   │
-  ▼
+  V
 ¿Opcion ingresada?
   ├─ "5" ──────────────────────> Salir
   │
