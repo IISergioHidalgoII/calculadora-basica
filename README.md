@@ -1,8 +1,8 @@
-# Calculadora Básica
+# Calculadora BBasica
 
-Aplicación de consola para practicar lógica de programación con las 4 operaciones aritméticas básicas.
+Aplicacion de consola para practicar logica de programacion con las 4 operaciones aritmeticas basicas.
 
-## Cómo ejecutar
+## Como ejecutar
 
 ```bash
 python calculadora.py
@@ -10,14 +10,14 @@ python calculadora.py
 
 ## Funciones
 
-| Función | Qué hace |
+| Funcion | Que hace |
 |---|---|
-| `sumar(a, b)` | Retorna la suma de dos números |
-| `restar(a, b)` | Retorna la resta de dos números |
-| `multiplicar(a, b)` | Retorna la multiplicación de dos números |
-| `dividir(a, b)` | Retorna la división; si `b == 0` retorna mensaje de error |
-| `obtener_numero(mensaje)` | Pide un número al usuario y valida que sea numérico |
-| `mostrar_menu()` | Imprime el menú de opciones en consola |
+| `sumar(a, b)` | Retorna la suma de dos numeros |
+| `restar(a, b)` | Retorna la resta de dos numeros |
+| `multiplicar(a, b)` | Retorna la multiplicacion de dos numeros |
+| `dividir(a, b)` | Retorna la division; si `b == 0` retorna mensaje de error |
+| `obtener_numero(mensaje)` | Pide un numero al usuario y valida que sea numerico |
+| `mostrar_menu()` | Imprime el menu de opciones en consola |
 | `main()` | Controla el flujo principal del programa en un bucle |
 
 ## Diagrama de flujo
@@ -29,25 +29,25 @@ Inicio
 mostrar_menu()
   │
   ▼
-¿Opción ingresada?
-  ├─ "5" ──────────────────────► Salir
+¿Opcion ingresada?
+  ├─ "5" ──────────────────────> Salir
   │
   ├─ "1","2","3","4"
   │       │
-  │       ▼
-  │   obtener_numero() x2
+  │       V
+  │   obtener_numero(a) para primer numero
   │       │
-  │       ▼
-  │   ejecutar operación (sumar / restar / multiplicar / dividir)
+  │       V
+  │   obtener_numero(b) para segundo numero
   │       │
-  │       ▼
+  │       V
+  │   ejecutar operacion (sumar / restar / multiplicar / dividir)
+  │       │
+  │       V
   │   mostrar resultado
   │       │
   │       └──────────────────── volver a mostrar_menu()
   │
-  └─ otra ──────────────────────► "Opción no válida" → volver al menú
+  └─ otra ──────────────────────> "Opcion no valida" → volver al menú
 ```
 
-## Tecnologías
-
-- Python 3
