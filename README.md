@@ -10,15 +10,15 @@ python calculadora.py
 
 ## Funciones
 
-| Funcion | Que hace |
-|---|---|
-| `sumar(a, b)` | Retorna la suma de dos numeros |
-| `restar(a, b)` | Retorna la resta de dos numeros |
-| `multiplicar(a, b)` | Retorna la multiplicacion de dos numeros |
-| `dividir(a, b)` | Retorna la division; si `b == 0` retorna mensaje de error |
-| `obtener_numero(mensaje)` | Pide un numero al usuario y valida que sea numerico |
-| `mostrar_menu()` | Imprime el menu de opciones en consola |
-| `main()` | Controla el flujo principal del programa en un bucle |
+| Funcion                   | Que hace                                                  |
+| ------------------------- | --------------------------------------------------------- |
+| `sumar(a, b)`             | Retorna la suma de dos numeros                            |
+| `restar(a, b)`            | Retorna la resta de dos numeros                           |
+| `multiplicar(a, b)`       | Retorna la multiplicacion de dos numeros                  |
+| `dividir(a, b)`           | Retorna la division; si `b == 0` retorna mensaje de error |
+| `obtener_numero(mensaje)` | Pide un numero al usuario y valida que sea numerico       |
+| `mostrar_menu()`          | Imprime el menu de opciones en consola                    |
+| `main()`                  | Controla el flujo principal del programa en un bucle      |
 
 ## Diagrama de flujo
 
@@ -50,4 +50,3 @@ mostrar_menu()
   │
   └─ otra ──────────────────────> "Opcion no valida" → volver al menú
 ```
-
