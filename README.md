@@ -1,6 +1,6 @@
 # Calculadora Basica
 
-Aplicacion de consola para practicar logica de programacion con las 4 operaciones aritmeticas basicas.
+Aplicacion dentro de consola para practicar logica de programacion con las 4 operaciones aritmeticas basicas.
 
 ## Como ejecutar
 
